@@ -65,30 +65,8 @@
                             <th>Total Amount</th>
                         </tr>
                     </thead>
-                    <tbody id="table_body">
-                        <tr>
-                            <td>Grocery</td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <td>Veggies</td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <td>Travelling</td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <td>Miscellaneous</td>
-                            <td>0</td>
-                        </tr>
-                    </tbody>
-                    <tfoot id="table_foot">
-                        <tr>
-                            <th>Grand Total</th>
-                            <td>0</td>
-                        </tr>
-                    </tfoot>
+                    <tbody id="table_body"></tbody>
+                    <tfoot id="table_foot"></tfoot>
                 </table>
             </div>
         </main>
