@@ -1,0 +1,70 @@
+h1, h5{
+    text-align: center;
+}
+
+/* Html Body  */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #cccccc;
+}
+
+/* Main Container  */
+.container{
+    margin: auto;
+    padding: 10px;
+    height: 100%;
+    width: 50%;
+    border: 5px solid #666666;
+    border-radius: 10px;
+    background-color: #eeeeee;
+}
+
+/* Navigation */
+.nav__box{
+    display: flex;
+    justify-content: center;
+}
+.nav__menu button{
+    font-size: 20px;
+    width: 150px;
+    height: 100px;
+}
+
+/* Header */
+.header__box{
+    display: flex;
+    justify-content: center;
+}
+
+/* Section */
+.section__box{
+    display: flex;
+    justify-content: center;
+}
+
+/* Main */
+.main__box{
+    display: flex;
+    justify-content: center;
+}
+.main__menu table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+/* Footer */
+.footer__menu{
+    display: flex;
+    justify-content: center;
+}
+.footer__table{
+    display: flex;
+    justify-content: center;
+}
+.footer__menu input{
+    width: 90px;
+}
+.footer__menu table, th, td{
+    padding: 0px 22px;
+}
