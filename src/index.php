@@ -11,7 +11,6 @@
 <body>
     <div class="container">
         <h1>Expense Manager</h1>
-
         <!-- Navigation Pannel  -->
         <nav>
             <h5>Nav Pannel</h5>
@@ -54,23 +53,6 @@
             </div>
         </section>
 
-        <!-- Main Table Pannel  -->
-        <main>
-            <h5>Display Table</h5>
-            <div class="main__box">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Expense Type</th>
-                            <th>Total Amount</th>
-                        </tr>
-                    </thead>
-                    <tbody id="table_body"></tbody>
-                    <tfoot id="table_foot"></tfoot>
-                </table>
-            </div>
-        </main>
-
         <!-- Footer Savings Pannel  -->
         <footer>
             <h5>Display Savings</h5>
@@ -93,6 +75,25 @@
                 </div>
             </div>
         </footer>
+
+        <!-- Main Table Pannel  -->
+        <main>
+            <h5>Display Table</h5>
+            <div class="main__box">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Item Type</th>
+                            <th>Amount</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table_body"></tbody>
+                    <tfoot id="table_foot"></tfoot>
+                </table>
+            </div>
+        </main>
     </div>
 </body>
 <script src="./JS/script.js"></script>
