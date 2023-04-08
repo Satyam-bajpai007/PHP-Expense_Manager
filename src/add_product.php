@@ -1,5 +1,4 @@
 <?php
-include_once "config.php";
-// $data = array("");
-print_r(($_SESSION["product"]))
+session_start();
+array_push($_SESSION["product"],$_POST);
 ?>

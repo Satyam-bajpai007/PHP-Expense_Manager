@@ -1,13 +1,10 @@
 <?php
-// session_start();
-    include_once "config.php";
+    session_start();
+    $_SESSION["expenses"]=0;
     $txt = ""; 
-    $cnt = 0;
-    // print_r($_SESSION)
     foreach ($_SESSION["product"] as $key => $value) {
-        $txt .= "<tr><td>".$value["item"]."</td><td>".$value["amount"]."</td><td><button onclick='edit($cnt)'>Edit</button></td><td><button onclick='delete($cnt++)'>Delete</button></td></tr>";
-        // print_r($value);
+        $_SESSION["expenses"]+=$value["amount"];
+        $txt .= "<tr><td>".$value["item"]."</td><td>".$value["amount"]."</td><td><button onclick='edit($key)'>Edit</button></td><td><button onclick='deletes($key)'>Delete</button></td></tr>";
     }
     echo $txt;
-    // print_r($_SESSION["product"])
 ?>
